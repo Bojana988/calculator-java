@@ -2,13 +2,15 @@
 
 
 # Lines of Code:
-filename  |	language  |	code  |	comment  |	blank |	total
+filename  |	language  |	code  |	comment  |	blank |	total  
+
 calculator-java-main/Calculator.java |	Java | 129 | 5 | 54 | 188
 calculator-java-main/Start.java	| Java | 19 |	0 | 7 | 26
 
 
 # Ciklomatska Kompleksnost
-Function Name |	Start Line | End Line | Cyclomatic Complexity 
+Function Name |	Start Line | End Line | Cyclomatic Complexity   
+
 Calculator::Operations::Operations | 15 | 16 | 1
 Calculator::Operations::ToString | 18 |	20 | 1
 Calculator::Run | 24 | 26 |	1
