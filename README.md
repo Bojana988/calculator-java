@@ -11,12 +11,12 @@ calculator-java-main/Start.java	| Java | 19 |	0 | 7 | 26
 ## Ciklomatska Kompleksnost
 Function Name |	Start Line | End Line | Cyclomatic Complexity   
 
-Calculator::Operations::Operations | 15 | 16 | 1
-Calculator::Operations::ToString | 18 |	20 | 1
-Calculator::Run | 24 | 26 |	1
-Calculator::evaluateExpression | 28 | 72 | 12
-Calculator::Calculate |	74 | 186 | 12
-Start::main | 5 | 24 | 3
+Calculator::Operations::Operations | 15 | 16 | 1<br />
+Calculator::Operations::ToString | 18 |	20 | 1<br />
+Calculator::Run | 24 | 26 |	1<br />
+Calculator::evaluateExpression | 28 | 72 | 12<br />
+Calculator::Calculate |	74 | 186 | 12<br />
+Start::main | 5 | 24 | 3<br />
 
 Calculator.java kognitivna kompleksnost: 29.
 
