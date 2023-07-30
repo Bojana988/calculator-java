@@ -1,14 +1,14 @@
 # QA Report
 
 
-# Lines of Code:
+## Lines of Code:
 filename  |	language  |	code  |	comment  |	blank |	total  
 
 calculator-java-main/Calculator.java |	Java | 129 | 5 | 54 | 188  
 calculator-java-main/Start.java	| Java | 19 |	0 | 7 | 26
 
 
-# Ciklomatska Kompleksnost
+## Ciklomatska Kompleksnost
 Function Name |	Start Line | End Line | Cyclomatic Complexity   
 
 Calculator::Operations::Operations | 15 | 16 | 1
@@ -23,7 +23,7 @@ Calculator.java kognitivna kompleksnost: 29.
 
 ## Izveštaj statičke analize koda:
 
-# Calculator.java: 
+### Calculator.java: 
 - Linija 6: Nedefinisani modifikator pristupa za promenljivu finalResult
 - Linija 8-17: Klasa Operations sadrži samo statičke metode.
 - Linija 18: Promeniti ime metode "ToString" da se izbegne prepletanje sa postojecom Java "toString" metodom
@@ -33,10 +33,10 @@ Calculator.java kognitivna kompleksnost: 29.
 - Linija 102-103, 117-118, 122-123, 131-132: Kod se ponavlja u više delova metode 'Calculate', što ukazuje na potencijalno dupliranje koda.
 - Linija 98-158: Metoda 'Calculate' koristi rekurzivne pozive što može biti teško za razumevanje i može dovesti do neočekivanih rezultata u nekim slučajevima. 
 
-# Start.java
+### Start.java
 - Linija 8: Nedefinisani modifikator pristupa za promenljivu 'active'.
 - Linija 12: Nepotrebno otvaranje novog Scanner objekta pri svakoj iteraciji petlje.
 
-# Opšti zaključak:
+## Opšti zaključak:
 Projekat sadrži nekoliko potencijalnih problema i code smell-ova koji bi trebali biti ispravljeni kako bi se poboljšala čitljivost, efikasnost i održivost koda. Takođe, preporučuje se dodatno razmatranje organizacije koda, izdvajanje ponavljajućeg koda u funkcije i razmatranje alternativnih pristupa rekurzivnim rešenjima.
 
