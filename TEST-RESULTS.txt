@@ -1,0 +1,2 @@
+1- Ukoliko je rezultat veci od 9999999 kalkulator ne ispisuje ceo broj. Slicno je sa ostatkom.
+2- Ukoliko se unese prvo znak "*" ili znak "/" pa zatim broj dobija se greška error, umesto ocekivanog rezultata 0. 
