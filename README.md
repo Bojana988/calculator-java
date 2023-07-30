@@ -4,7 +4,8 @@
 ## Lines of Code:
 filename  |	language  |	code  |	comment  |	blank |	total  
 
-calculator-java-main/Calculator.java |	Java | 129 | 5 | 54 | 188\ 
+calculator-java-main/Calculator.java |	Java | 129 | 5 | 54 | 188  
+
 calculator-java-main/Start.java	| Java | 19 |	0 | 7 | 26
 
 
